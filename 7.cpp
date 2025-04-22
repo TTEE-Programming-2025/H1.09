@@ -5,7 +5,7 @@ int main()
 	int n, i=1,fact=1;
 	do
 	{
-		printf("嚙請選蕭J n 嚙踝蕭 (n>0):");
+		printf("請輸入 n 值 (n>0):");
 		scanf("%d", &n);
 	}
 	while (n<=0);
@@ -14,5 +14,6 @@ int main()
 	while (i <= n);
 	printf("%d!=%d\n",n,fact);
 	
+	system("pause");
 	return 0;   
 }
