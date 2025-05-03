@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 #include <time.h>
 
 #define SIZE 9
@@ -14,7 +14,7 @@ void initializeSeats() {
 }
 
 void displaySeats() {
-    printf(" \\123456789\n")
+    printf(" \\123456789\n"); 
     for (int i = SIZE - 1; i >= 0; i--) {
         printf("%d", i + 1);
         for (int j = 0; j < SIZE; j++) {
