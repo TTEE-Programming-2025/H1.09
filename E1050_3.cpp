@@ -186,7 +186,7 @@ int main() {
 }
 
 /*
-Discussion and Reflection:
+(英文版)Discussion and Reflection:
 
 This project taught me how to combine different C programming skills, such as using loops, conditional statements, functions, and arrays to build a complete seat booking system. 
 Implementing the random reservation part helped me understand how to use the rand() function and how to control the random process to avoid repeated seat selection.
@@ -196,4 +196,16 @@ Through this assignment, I improved my problem-solving skills, learned how to or
 
 Overall, this exercise gave me a deeper understanding of practical C programming beyond just syntax.
 */
+/*
+(中文版)討論與心得：
+
+這個專案讓我學會如何結合不同的 C 語言技巧，例如使用迴圈、條件判斷、函式與陣列，來建構一個完整的座位訂位系統。
+在實作隨機訂位的部分，讓我了解如何使用 rand() 函式，以及如何控制隨機過程，避免重複選取同一個座位。
+此外，處理使用者輸入驗證也是一個重要的練習，使系統更穩定且更具使用者友善性。
+應對錯誤輸入或座位無法使用等不同情境，讓我意識到在實際應用中，強化輸入檢查的重要性。
+透過這份作業，我提升了解決問題的能力，學會如何組織程式結構，同時也練習了撰寫有意義的註解，以清楚說明我的程式邏輯。
+
+整體而言，這次練習讓我對 C 語言實作有了更深入的理解，不僅僅停留在語法層面。
+*/
+
 
