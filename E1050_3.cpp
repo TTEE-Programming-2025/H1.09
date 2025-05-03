@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 #include <time.h>
 
 #define SIZE 9
@@ -106,7 +106,7 @@ int main() {
     // Password check
     while (attempt < 2) {
         printf("Enter 4-digit password: ");
-        scanf("%d", &password);
+        scanf("%c", &password);
         if (password == PASSWORD) {
             printf("Welcome!\n");
             break;
