@@ -5,7 +5,7 @@
 #define SIZE 9
 #define PASSWORD 2025
 
-char seats[SIZE][SIZE];
+
 
 void initializeSeats() {
     for (int i = 0; i < SIZE; i++)
@@ -106,7 +106,7 @@ int main() {
     // Password check
     while (attempt < 2) {
         printf("Enter 4-digit password: ");
-        scanf("%c", &password);
+        scanf("%d", &password);
         if (password == PASSWORD) {
             printf("Welcome!\n");
             break;
