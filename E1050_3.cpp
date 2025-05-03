@@ -94,7 +94,7 @@ void confirmReservation() {
         for (int i = 0; i < SIZE; i++)
             for (int j = 0; j < SIZE; j++)
                 if (seats[i][j] == '@')
-                    seats[i][j] = '-';
+                   
     }
 }
 
@@ -139,7 +139,7 @@ int main() {
                 printf("Press any key to return to menu...\n");
                 getchar();
                 getchar();
-                
+                break;
             case 'b': {
                 int num;
                 printf("How many seats do you need? (1-4): ");
