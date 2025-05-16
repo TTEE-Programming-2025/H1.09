@@ -126,7 +126,7 @@ void enterGrades() {
 
 // 功能 4：顯示所有成績
 void displayGrades() {
-    printf("\n%-10s %-10s %-6s %-6s %-6s %-6s\n", "姓名", "學號", "數學", "物理", "英文", "平均");
+    printf("\n%-10s %-10s %-6s %-6s %-6s %-6s\n", "姓名", "學號", "數學", "物理", "英文", "平均")
     for (int i = 0; i < studentCount; i++) {
         printf("%-10s %-10s %-6d %-6d %-6d %-6.1f\n",
                students[i].name, students[i].id, students[i].math,
@@ -179,7 +179,7 @@ showWelcomeScreen();
         scanf(" %c", &choice);
 
         switch (choice) {
-            case 'a': enterGrades(); 
+            case 'a': enterGrades(); break;
             case 'b': displayGrades(); break;
             case 'c': searchGrades(); break;
             case 'd': gradeRanking(); break;
