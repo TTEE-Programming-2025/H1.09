@@ -88,7 +88,7 @@ int login() {
 
 // 功能 2：主選單
 void showMenu() {
-    system("clear"); // Windows 用，若是 Linux 請改成 "clear"
+    system("cls"); // Windows 用，若是 Linux 請改成 "clear"
     printf("------------[Grade System]----------\n");
     printf("| a. Enter student grades          |\n");
     printf("| b. Display student grades        |\n");
@@ -169,7 +169,7 @@ void gradeRanking() {
 
 // 主程式
 int main() {
-    showWelcomeScreen();
+
     if (!login()) return 0;
 
     char choice;
