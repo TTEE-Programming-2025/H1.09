@@ -140,7 +140,7 @@ void searchGrades() {
     printf("請輸入要查詢的學生姓名：");
     scanf("%s", searchName);
 
-    for (int i = 0; i < studentCount; ) {
+    for (int i = 0; i < studentCount;i++ ) {
         if (myStrEqual(students[i].name, searchName)) {
             printf("%s 的成績如下：\n", students[i].name);
             printf("數學：%d  物理：%d  英文：%d  平均：%.1f\n",
@@ -179,7 +179,7 @@ showWelcomeScreen();
         scanf(" %c", &choice);
 
         switch (choice) {
-            case 'a': enterGrades(); break;
+            case 'a': enterGrades(); 
             case 'b': displayGrades(); break;
             case 'c': searchGrades(); break;
             case 'd': gradeRanking(); break;
