@@ -176,7 +176,7 @@ int main() {
     while (1) {
         showMenu();
         printf("請選擇功能 (a-e)：");
-        scanf(" %c", &choice);
+        scanf("%c", &choice);
 
         switch (choice) {
             case 'a': enterGrades(); break;
