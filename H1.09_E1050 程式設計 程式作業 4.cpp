@@ -88,7 +88,7 @@ int login() {
 
 // 功能 2：主選單
 void showMenu() {
-    system("cls"); // Windows 用，若是 Linux 請改成 "clear"
+    system("clear"); // Windows 用，若是 Linux 請改成 "clear"
     printf("------------[Grade System]----------\n");
     printf("| a. Enter student grades          |\n");
     printf("| b. Display student grades        |\n");
@@ -176,7 +176,7 @@ int main() {
     while (1) {
         showMenu();
         printf("請選擇功能 (a-e)：");
-        scanf("%c", &choice);
+        scanf(" %c", &choice);
 
         switch (choice) {
             case 'a': enterGrades(); break;
