@@ -68,7 +68,7 @@ void showWelcomeScreen() {
 // 功能 1：密碼登入
 int login() {
     char input[10];
-    int attempt = 0;
+
 
     while (attempt < MAX_ATTEMPTS) {
         printf("請輸入 4 位數密碼：");
