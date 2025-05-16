@@ -197,7 +197,7 @@ showWelcomeScreen();
         }
 
         printf("按 Enter 鍵繼續...\n");
-        getchar();  // 等待輸入
+        getchar(); getchar(); // 等待輸入
     }
 
     return 0;
